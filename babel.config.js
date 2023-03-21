@@ -10,6 +10,7 @@ module.exports = function (api) {
           'react-native-reanimated/plugin',
           // remove console.log in production so that it doesn't slow down the app and make bottlenecks
           'transform-remove-console',
+          'nativewind/babel',
           [
             // modele-resolver use for ability of using absloute paths
             'module-resolver',
@@ -33,6 +34,7 @@ module.exports = function (api) {
         presets: ['module:metro-react-native-babel-preset'],
         plugins: [
           'react-native-reanimated/plugin',
+          'nativewind/babel',
           [
             'module-resolver',
             {

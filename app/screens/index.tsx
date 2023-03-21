@@ -12,11 +12,7 @@ import {
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import React from 'react';
 
-import {
-  RootStackParamList,
-  RootTabParamList,
-  RootTabScreenProps,
-} from 'types/Navigations';
+import {RootStackParamList, RootTabParamList} from 'types/Navigations';
 import HomeScreen from './Home';
 
 export default function Navigation({

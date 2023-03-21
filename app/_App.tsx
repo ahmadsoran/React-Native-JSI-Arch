@@ -1,7 +1,7 @@
 import React from 'react';
 import {StatusBar} from 'react-native';
 import {SafeAreaProvider} from 'react-native-safe-area-context';
-import Navigation from 'screens';
+import Navigation from 'screens/Index';
 import useCachedResources from 'utility/hooks/useCachedResources';
 import useColorScheme from 'utility/hooks/useColorScheme';
 function App() {
